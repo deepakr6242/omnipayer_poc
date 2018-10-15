@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Get source') {
+    stage('Clone and deploy') {
       steps {
         sh '''cd C:\\Users\\omniadmin\\Desktop\\
 set PATH=C:\\Program Files\\Git\\bin;%PATH%
